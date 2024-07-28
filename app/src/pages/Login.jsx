@@ -18,8 +18,8 @@ const Login = () => {
     try {
       // TODO: Add login
       setTimeout(() => {
-          // dummy user
-          setUser({ email });
+        // dummy user
+        setUser({ email });
       }, 2000);
 
       navigate("/");
@@ -30,11 +30,11 @@ const Login = () => {
 
   // login with github
   const handleLoginWithGithub = async () => {
-   // TODO: Add login with Github
+    // TODO: Add login with Github
   }
 
   const handleLoginWithDiscord = () => {
-   // TODO: Add login with Discord
+    // TODO: Add login with Discord
   }
 
   const handleAnonymousLogin = () => {
